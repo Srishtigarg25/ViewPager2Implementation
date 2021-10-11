@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
     ViewPager2 viewPager;
     Button next;
     Button previous;
-
+    DotsIndicator dotsIndicator;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
